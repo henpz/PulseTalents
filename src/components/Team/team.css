@@ -253,6 +253,11 @@
 
 @media (min-width: 340px) and (max-width: 500px){
 
+    #blackmoon{
+        background-position: center;
+        background-image: url('./Teamfotos/blackmoonres.jpg');
+    }
+
     .generos-container{
         display: none;
     }
