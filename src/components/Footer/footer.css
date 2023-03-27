@@ -1,0 +1,80 @@
+*{
+    text-decoration: none;
+}
+
+
+
+footer{
+    
+    border-top: solid 1px white;
+    background-color: black;
+    width: 100%;
+    height: 420px;
+}
+.assinatura{
+   display: flex;
+    justify-content: center;
+}
+.assinatura span{
+   
+    color: white;
+}
+
+#logo-footer{
+    width: 130px;
+}
+
+#editar{
+    width: 70px;
+}
+
+#logos{
+    display: flex;
+    justify-content: center;
+}
+
+#logos img{
+    padding: 10px;
+}
+
+#wpplogo{
+    width: 70px;
+    margin: auto;
+}
+
+.wpp-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wpp-block{
+    height: 150px;
+   
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.wpp-block img{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.wpp-block h1{
+    font-size: 19px;
+}
+
+.direitos{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    color: white;
+}

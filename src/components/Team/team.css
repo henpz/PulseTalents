@@ -1,0 +1,577 @@
+#title3{
+    padding: 30px;
+    font-size: 36px;
+    text-align: center;
+}
+
+#subtitle{
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+.artistas-container{
+   
+    background-image: url('fundo.jpg');
+    width: 100%;
+    height: 1450px;
+    
+}
+
+.generos-container{
+    margin: auto;
+    width: 70%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.generos-container span{
+    
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #f6f6f6;
+}
+
+.grid-container{
+    margin: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; 
+    padding-top: 50px;
+  }
+
+ 
+
+  
+.card {
+    z-index: 1;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+}
+
+.card:hover {
+    background-image: linear-gradient(#672abf, #380e74);
+}
+
+.card .img {
+    z-index: 1;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+}
+.vermais{
+    display: flex;
+    height: 50PX;
+    align-items: center;
+}
+
+.vermais span{
+   font-weight: bolder;
+}
+
+#bionic{
+    background-image: url('./Teamfotos/bionic.jpg');
+}
+
+#blackmoon{
+    
+    background-image: url('./Teamfotos/blackmoon.jpg');
+}
+#blackmlogo{
+    filter: invert(100%);
+    width: 375px;
+    padding-top: 80px;
+}
+
+#genezion{
+    background-image: url('./Teamfotos/genezyon.jpg');
+}
+#genezionlogo{
+    padding-top: 80px;
+    height: 180px;
+    width: 230px;
+    filter: invert(100%);
+}
+#fleke{
+    background-image: url('./Teamfotos/fleke.jpg');
+}
+
+#lowtreck{
+    background-image: url('./Teamfotos/lowtreck.JPG');
+}
+
+#newcode{
+    background-image: url('./Teamfotos/arthur.jpg');
+}
+
+#pia{
+    background-image: url('./Teamfotos/pianesc.jpg');
+}
+
+#sloundness{
+    background-image: url('./Teamfotos/slou.jpg');
+}
+
+#sonic{
+    background-image: url('./Teamfotos/sonic.jpg');
+}
+
+#traxie{
+    background-image: url('./Teamfotos/traxie.jpg');
+}
+
+#toledo{
+    background-image: url('./Teamfotos/toledo.jpg');
+}
+
+#action{
+    background-image: url('./Teamfotos/action.jpg'); 
+}
+#actionlogo{
+    padding-top: 100px;
+    width: 240px;
+}
+
+#ARISTIDS{
+    background-image: url('./Teamfotos/supergui.png'); 
+}
+
+#eristton{
+    background-image: url('./Teamfotos/Eristton.jpg');
+}
+
+#vicentt{
+    background-image: url('./Teamfotos/vicent.jpeg');
+    background-position: center;
+}
+
+#vicent{
+    padding-top: 100px;
+    filter: invert(100%);
+    width: 250px;
+}
+.card .img span {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card:hover .img {
+    width: 400px;
+    opacity: 1;
+}
+
+.card:hover .img span {
+    font-size: 28px;
+}
+
+.card .content {
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card:hover .content {
+    height: 100px;
+    padding: 10px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card .content p {
+    margin: 0;
+    font-weight: bolder;
+}
+
+.card .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card:hover .arrow {
+    transform: rotate(0);
+}
+
+.card .arrow span {
+    font-size: 24px;
+}
+
+#vermais{
+    margin: auto;
+    text-align: center;
+}
+
+@media (min-width: 340px) and (max-width: 500px){
+
+    .generos-container{
+        display: none;
+    }
+
+    .artistas-container{
+        height: 3360px;
+       
+    }
+
+    #blackmlogo{
+        width: 260px;
+    }
+    #genezionlogo{
+        width: 205px;
+       
+    }
+
+    .generos-container{
+        width: 100%;
+    }
+
+    
+    .grid-container{
+        margin: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px; 
+        padding-top: 50px;
+      }
+      
+      .card{
+        width: 190px;
+      }
+      
+      #actionlogo{
+        width: 140px;
+      }
+
+      #vicent{
+        width: 150;
+      }
+}
+
+@media (min-width: 500px) and (max-width: 600px){
+
+    .generos-container{
+        display: none;
+    }
+
+    .artistas-container{
+        height: 3360px;
+       
+    }
+
+    #blackmlogo{
+        width: 260px;
+    }
+    #genezionlogo{
+        width: 205px;
+       
+    }
+
+    .generos-container{
+        width: 100%;
+    }
+
+    
+    .grid-container{
+        margin: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px; 
+        padding-top: 50px;
+      }
+      
+      .card{
+        width: 220px;
+      }
+      
+      #actionlogo{
+        width: 140px;
+      }
+
+      #vicent{
+        width: 150;
+      }
+}
+
+@media (min-width: 601px) and (max-width: 750px){
+
+    .generos-container{
+        display: none;
+    }
+
+    .artistas-container{
+        height: 3360px;
+       
+    }
+
+    #blackmlogo{
+        width: 260px;
+    }
+    #genezionlogo{
+        width: 205px;
+       
+    }
+
+    .generos-container{
+        width: 100%;
+    }
+
+    
+    .grid-container{
+        margin: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px; 
+        padding-top: 50px;
+      }
+      
+      .card{
+        width: 270px;
+      }
+      
+      #actionlogo{
+        width: 140px;
+      }
+
+      #vicent{
+        width: 150;
+      }
+}
+
+@media (min-width: 750px) and (max-width:800px){
+    .generos-container{
+        display: none;
+    }
+
+    .artistas-container{
+        height: 2100px;
+       
+    }
+
+    #blackmlogo{
+        width: 260px;
+    }
+    #genezionlogo{
+        width: 205px;
+       
+    }
+
+    .generos-container{
+        width: 100%;
+    }
+
+    
+    .grid-container{
+        margin: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px; 
+        padding-top: 50px;
+      }
+      
+      .card{
+        width: 220px;
+      }
+      
+      #actionlogo{
+        width: 140px;
+      }
+
+      #vicent{
+        width: 150;
+      }
+}
+
+@media (min-width: 800px) and (max-width:950px){
+    .generos-container{
+        display: none;
+    }
+
+    .artistas-container{
+        height: 2100px;
+       
+    }
+
+    #blackmlogo{
+        width: 260px;
+    }
+    #genezionlogo{
+        width: 205px;
+       
+    }
+
+    .generos-container{
+        width: 100%;
+    }
+
+    
+    .grid-container{
+        margin: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px; 
+        padding-top: 50px;
+      }
+      
+      .card{
+        width: 240px;
+      }
+      
+      #actionlogo{
+        width: 140px;
+      }
+
+      #vicent{
+        width: 150;
+      }
+}
+
+@media (min-width: 950px) and (max-width:1300px){
+    .generos-container{
+        display: none;
+    }
+
+    .artistas-container{
+        height: 1700px;
+       
+    }
+
+    #blackmlogo{
+        width: 260px;
+    }
+    #genezionlogo{
+        width: 205px;
+       
+    }
+
+    .generos-container{
+        width: 100%;
+    }
+
+    
+    .grid-container{
+        margin: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px; 
+        padding-top: 50px;
+      }
+      
+      .card{
+        width: 220px;
+      }
+      
+      #actionlogo{
+        width: 140px;
+      }
+
+      #vicent{
+        width: 150;
+      }
+}
+
+@media (min-width: 1300px) and (max-width:1669px){
+    .generos-container{
+        display: none;
+    }
+
+    .artistas-container{
+        height: 1700px;
+       
+    }
+
+    #blackmlogo{
+        width: 260px;
+    }
+    #genezionlogo{
+        width: 205px;
+       
+    }
+
+    .generos-container{
+        width: 100%;
+    }
+
+    
+    .grid-container{
+        margin: auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px; 
+        padding-top: 50px;
+      }
+      
+      .card{
+        width: 310px;
+      }
+      
+      #actionlogo{
+        width: 140px;
+      }
+
+      #vicent{
+        width: 150;
+      }
+}

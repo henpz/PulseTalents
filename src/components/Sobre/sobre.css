@@ -1,0 +1,301 @@
+*{
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+h1  {
+    font-family: 'Lato', sans-serif;
+}
+
+h2  {
+    font-family: 'Lato', sans-serif;
+}
+
+h3  {
+    font-family: 'Lato', sans-serif;
+}
+
+h4  {
+    font-family: 'Lato', sans-serif;
+}
+
+h5  {
+    font-family: 'Lato', sans-serif;
+}
+
+h6  {
+    font-family: 'Lato', sans-serif;
+}
+
+span  {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.sobre-container{
+    
+    padding: 10px;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 750px;
+    border-radius: 20px;
+    
+}
+
+#title1{
+    font-size: 36px;
+    padding: 15px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    width: 290px;
+    margin: auto;
+    height: 120px;
+}
+
+html.sr .sobre-text{
+    
+    width: 45%;
+}
+
+.sobre-text h2{
+    font-size: 26px;
+    border-bottom: solid 1px;
+    border-bottom-width: 2px;
+    width: 590px;
+    margin: auto;
+    padding: 15px;
+}
+
+.sobre-text h3{
+    text-align: center;
+    padding: 35px;
+    font-size: 23px;
+    
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    height: 300px;
+}
+
+#modelo1{
+    padding: 10px;
+    height: 690px;
+}
+
+@media (min-width: 340px) and (max-width: 500px){
+    
+
+    .sobre-container{
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    .sobre-text{
+        width: 100%;
+    }
+
+    #scroll2{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #title1{
+        
+        font-size: 35px;
+    }
+    #scroll1{
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .img1{
+        display: none;
+    }
+
+    .sobre-text h2{
+        border-bottom: none
+       
+    }
+   
+    }
+
+
+    @media (min-width: 501px) and (max-width: 768px){
+
+        .sobre-container{
+            text-align: center;
+            height: 100%;
+            width: 100%;
+            padding: 0;
+        }
+        .sobre-text{
+            width: 100%;
+        }
+    
+        #scroll2{
+            width: 100%;
+            font-size: 18px;
+        }
+    
+        #title1{
+            
+            font-size: 36px;
+        }
+        #scroll1{
+            width: 100%;
+            text-align: center;
+            font-size: 23px;
+        }
+    
+        .img1{
+            display: none;
+        }
+    
+        .sobre-text h2{
+            border-bottom: none
+           
+        }
+    }
+
+    @media (min-width:  769px) and (max-width: 1024px){
+        .sobre-container{
+            text-align: center;
+            height: 100%;
+            width: 100%;
+            padding: 0;
+        }
+        .sobre-text{
+            width: 100%;
+        }
+    
+        #scroll2{
+            width: 100%;
+            font-size: 26px;
+        }
+    
+        #title1{
+            
+            font-size: 37px;
+        }
+        #scroll1{
+            width: 100%;
+            text-align: center;
+            font-size: 27px;
+        }
+    
+        .img1{
+            display: none;
+        }
+
+       
+    
+        .sobre-text h2{
+            border-bottom: none
+           
+        }
+    }
+    
+    @media (min-width:  1025px) and (max-width: 1276px){
+
+        .sobre-container{
+            text-align: center;
+            height: 100%;
+            width: 100%;
+            padding: 0;
+        }
+        .sobre-text{
+            width: 70%;
+           
+        }
+    
+        #scroll2{
+            width: 70%;
+            font-size: 19px;
+        }
+    
+        #title1{
+            
+            font-size: 16x;
+        }
+        #scroll1{
+            width: 70%;
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .img1{
+            width: 30%;
+        }
+       
+        #modelo1{
+            top: 40px;
+            right: 140px;
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            width: 500px;
+            height: 650px;
+        }
+       
+    
+        .sobre-text h2{
+            border-bottom: none
+           
+        }
+    }
+
+    @media (min-width:  1276px) and (max-width: 1350px){
+        
+        .sobre-container{
+            text-align: center;
+            height: 100%;
+            width: 100%;
+            padding: 0;
+        }
+        .sobre-text{
+            width: 70%;
+           
+        }
+    
+        #scroll2{
+            width: 70%;
+            font-size: 23px;
+        }
+    
+        #title1{
+            
+            font-size: 16x;
+        }
+        #scroll1{
+            width: 70%;
+            text-align: center;
+            font-size: 24px;
+        }
+        
+        .img1{
+            width: 30%;
+        }
+       
+        #modelo1{
+            top: 40px;
+            right: 140px;
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            width: 590px;
+            height: 730px;
+        }
+       
+    
+        .sobre-text h2{
+            border-bottom: none
+           
+        }
+    }

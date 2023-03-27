@@ -1,0 +1,177 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+h1  {
+    font-family: 'Lato', sans-serif;
+}
+
+h2  {
+    font-family: 'Lato', sans-serif;
+}
+
+h3  {
+    font-family: 'Lato', sans-serif;
+}
+
+h4  {
+    font-family: 'Lato', sans-serif;
+}
+
+h5  {
+    font-family: 'Lato', sans-serif;
+}
+
+h6  {
+    font-family: 'Lato', sans-serif;
+}
+
+span  {
+    font-family: 'Lato', sans-serif;
+}
+  
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+
+.name img{
+  position: relative;
+  width: 90px;
+  bottom: 35px;
+}
+li{
+  text-decoration: none;
+}
+
+.name a {
+  color: white;
+}
+.name{
+  cursor: pointer;
+  text-decoration: none;
+
+  color: rgb(253, 253, 253);
+  font-size: larger;
+  position: absolute;
+  display: flex;
+  padding: 22px;
+}
+
+#menu-h {
+ 
+  font-size: 1.0625rem;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+}
+
+#menu-h li{
+  padding: 23px;
+  color: aliceblue;
+  transition: 1s;
+}
+
+#menu-h .navitem:hover{
+  color: rgb(0, 0, 0);
+}
+
+#menuresp{
+  filter: invert(100%);
+  
+  width: 68px;
+  padding: 10px;
+}
+.butonmenuresp{
+   display: none;
+}
+
+.mobilemenu{
+  display: fixed;
+  display: none;
+}
+
+.menu-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 768px) {
+
+  .name img{
+   display: none;
+  }
+  .name{
+      font-size: 16px;
+      left: 10px;
+  }
+
+  .navitem{
+      display:none;
+  }
+  #menuresp{
+      
+      left: 10px;
+      display: block;
+      cursor: pointer;
+      background-color: transparent;
+  }
+
+  .mobilemenu ul {
+      
+      display: grid;
+      text-align: center;
+      
+  }
+
+  .butonmenuresp{
+      position: static;
+      display: block;
+      background-color: transparent;
+      border: none;
+      right: 70px;
+  }
+
+  #menu-h{
+      display: flex;
+      font-size: 14px;
+      
+  }
+  
+}
+
+@media screen and (max-width: 375px){
+  .name{
+      font-size: 14px;
+      left: 10px;
+  }
+
+  #menu-h{
+      display: flex;
+      font-size: 9px
+  }
+
+  .name img{
+    position: relative;
+    width: 10px;
+    bottom: 35px;
+  }
+}
