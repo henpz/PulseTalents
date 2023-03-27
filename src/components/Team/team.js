@@ -107,9 +107,9 @@ function Team (){
                 </div>
 
                 <div className="artista-box">
+                    <Link to='./eristtonC'>
                     <div  className="card">
 
-                    <Link to='./eristtonC'>
                     <div id="eristton" className="img">
                     <img id="actionlogo"src={Erilogo} />
                     </div>
@@ -117,9 +117,9 @@ function Team (){
                     <div className="vermais">
                        <span>VER MAIS</span> 
                     </div>
-                       </Link>  
 
                     </div>
+                       </Link>  
                 </div> 
 
 
