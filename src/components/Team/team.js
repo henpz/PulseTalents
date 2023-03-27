@@ -261,7 +261,7 @@ function Team (){
                 </div>
 
                 <div className="artista-box">
-                    <Link to='./vicentt'>
+                    <Link to='./vicentzanicheli'>
                     <div className="card">
                     <div id="vicentt"className="img">
                         <img id="vicent" src={Vicent} />
