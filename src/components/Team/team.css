@@ -15,7 +15,7 @@
    
     background-image: url('fundo.jpg');
     width: 100%;
-    height: 1450px;
+    height: 1750px;
     
 }
 
@@ -161,6 +161,10 @@
 
 #ARISTIDS{
     background-image: url('./Teamfotos/supergui.png'); 
+}
+
+#karin{
+    background-image: url('./Teamfotos/karin.jpg');
 }
 
 #eristton{
@@ -403,7 +407,7 @@
     }
 
     .artistas-container{
-        height: 2100px;
+        height: 2500px;
        
     }
 
@@ -449,7 +453,7 @@
     }
 
     .artistas-container{
-        height: 2100px;
+        height: 2500px;
        
     }
 

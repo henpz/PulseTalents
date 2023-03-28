@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+h1  {
+    font-family: 'Lato', sans-serif;
+}
+
+h2  {
+    font-family: 'Lato', sans-serif;
+}
+
+h3  {
+    font-family: 'Lato', sans-serif;
+}
+
+h4  {
+    font-family: 'Lato', sans-serif;
+}
+
+h5  {
+    font-family: 'Lato', sans-serif;
+}
+
+h6  {
+    font-family: 'Lato', sans-serif;
+}
+
+span  {
+    font-family: 'Lato', sans-serif;
+}
+
+#backNewcode{
+background-color: black;    
+height: 100%;
+}
+
+.fotodefundo{
+    filter: brightness(0.5);
+    width: 100%;
+    height: 500px;
+}
+
+#imgautoral{
+    width: 100%;
+}
+
+.photokarin{
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url('./karin.jpg');
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    
+}
+
+.logokarin{
+    margin-top: 0px;
+    
+    text-align: center;
+}
+
+.logokarin img{
+    width: 320px;
+}
+
+.karinsobre{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+    width: 40%;
+    align-items: center;
+    color: white;
+}
+
+.karinsobre h1{
+    text-justify:auto;
+    text-align: justify;
+    font-style: italic;
+    display: flex;
+    font-size: 19px;
+}
+
+#midia-text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.midiaskarin{
+    margin: auto;
+    width: 50%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px; 
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+#contato-title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-karin{
+    margin: auto;
+   justify-content: space-around;
+   align-items: center;
+   height: 150px;
+   width: 40%;
+   display: flex;
+}
+
+.wpp img {
+    cursor: pointer;
+    width: 70px;
+    transition: width .2s ease-in-out; 
+  }
+
+  .wpp:hover img {
+    width: 90px;
+  }
+
+  #enviarmsg{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.form-container{
+    height: 450px;
+}
+.formulario {
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    height: 410px;
+    margin: auto;
+    
+    background-color:rgb(53, 53, 53);
+  }
+
+  label{
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(53, 53, 53);
+    width: 85%;
+    text-align: center;
+   
+    font-size: 18px;
+    margin: auto;
+  }
+
+  input{
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 85%;
+    margin: auto;
+  }
+
+  textarea{
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 85%;
+    margin: auto;
+  }
+
+  #btn-mensagem{
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 220px;
+    border: #000000;
+    border: 2px solid;
+    margin: auto;
+    position: relative;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    
+  }
+
+  #btn-mensagem:hover{
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    width: 240px;
+    transition: 0.5s;
+    letter-spacing: 0.25em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px;
+  }
+
+
+  @media (min-width: 340px) and (max-width: 500px){
+    .fotodefundo img{
+        display: none;
+    }
+
+    .fotodefundo{
+        background-image: url('../img/fundopulse.jpg');
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photokarin{
+        width: 300px;
+        height: 300px;
+        bottom: 60px
+    }
+
+    .karinsobre{
+        width: 90%
+    }
+
+    .logokarin img{
+        width: 250px;
+    }
+
+    .karinsobre h1{
+        padding: 5px;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .midiaskarin{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; 
+    padding-top: 10px;
+    padding-bottom: 35px;
+    }
+
+    #responsive{
+        width: 80%;
+    }
+
+    #midia-text h1{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    #contato-title h1{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .redes-karin{
+        width: 100%;
+    }
+    
+    .redes-karin img{
+        width: 50px;
+    }
+    .wpp:hover img {
+        width: 60px;
+      }
+
+    #enviarmsg{
+        color: white;
+        font-size: 22px;
+    }
+
+    .formulario{
+        width: 95%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px){
+    .fotodefundo img{
+        display: none;
+    }
+
+    .fotodefundo{
+        background-image: url('../img/fundopulse.jpg');
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photokarin{
+        width: 400px;
+        height: 400px;
+        bottom: 90px
+    }
+
+    .karinsobre{
+        width: 90%
+    }
+    .logokarin{
+        height: 100px;
+    }
+    .logokarin img{
+        position: relative;
+        bottom: 60px;
+        width: 340px;
+    }
+    .karinsobre h1{
+        padding: 5px;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .midiaskarin{
+        margin: auto;
+    width: 90%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; 
+    padding-top: 10px;
+    padding-bottom: 35px;
+    }
+
+    #responsive{
+        width: 90%;
+    }
+
+    #midia-text h1{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    #contato-title h1{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .redes-karin{
+        width: 100%;
+    }
+    
+    .redes-karin img{
+        width: 50px;
+    }
+    .wpp:hover img {
+        width: 60px;
+      }
+
+    #enviarmsg{
+        color: white;
+        font-size: 22px;
+    }
+
+    .formulario{
+        width: 95%;
+}
+}
+
+@media (min-width: 769px) and (max-width:1024px){
+    .fotodefundo img{
+        display: none;
+    }
+
+    .fotodefundo{
+        background-image: url('../img/fundopulse.jpg');
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photokarin{
+        width: 300px;
+        height: 300px;
+        bottom: 60px
+    }
+
+    .karinsobre{
+        width: 90%;
+        
+    }
+
+    .logokarin{
+        height: 100px;
+    }
+
+    .logokarin img{
+        position: relative;
+        bottom: 50px;
+    }
+    .karinsobre h1{
+        padding: 5px;
+        align-items: center;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+    .midiaskarin{
+        margin: auto;
+    width: 90%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; 
+    padding-top: 10px;
+    padding-bottom: 35px;
+    }
+
+    #responsive{
+        width: 300px;
+    }
+
+    #midia-text h1{
+        text-align: center;
+        font-size: 26px;
+    }
+
+    #contato-title h1{
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .redes-karin{
+        width: 100%;
+    }
+    
+    .redes-karin img{
+        width: 50px;
+    }
+    .wpp:hover img {
+        width: 60px;
+      }
+
+    #enviarmsg{
+        color: white;
+        font-size: 26px;
+    }
+
+    .formulario{
+        width: 95%;
+}
+}
+
+@media (min-width: 1025px) and (max-width:1381px){
+    .fotodefundo img{
+        display: none;
+    }
+
+    .fotodefundo{
+        background-image: url('../img/fundopulse.jpg');
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .photokarin{
+        width: 300px;
+        height: 300px;
+        bottom: 60px
+    }
+
+    .karinsobre{
+        width: 90%
+    }
+
+    .karinsobre h1{
+        padding: 5px;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .midiaskarin{
+        margin: auto;
+    width: 90%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; 
+    padding-top: 10px;
+    padding-bottom: 35px;
+    }
+
+    #responsive{
+        width: 450px;
+    }
+
+    #midia-text h1{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    #contato-title h1{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .redes-karin{
+        width: 100%;
+    }
+    
+    .redes-karin img{
+        width: 50px;
+    }
+    .wpp:hover img {
+        width: 60px;
+      }
+
+    #enviarmsg{
+        color: white;
+        font-size: 22px;
+    }
+
+    .formulario{
+        width: 95%;
+}
+}

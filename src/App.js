@@ -10,6 +10,7 @@ import DjBlackm from './Pages/blackmoon';
 import DjEriston from './Pages/eriston';
 import DjFleke from './Pages/fleck';
 import DjGenezyon from './Pages/genezyon';
+import DjKarin from './Pages/karin';
 import DjLowtreck from './Pages/lowtrack';
 import DjNewcode from './Pages/newcode';
 import DjPia from './Pages/pianesc';
@@ -93,6 +94,10 @@ function App() {
 
     <Routes>
       <Route path='/vicentzanicheli' element={<DjVicentt />} />
+    </Routes>
+
+    <Routes>
+      <Route path='/karin' element={<DjKarin />} />
     </Routes>
 
     </BrowserRouter>
