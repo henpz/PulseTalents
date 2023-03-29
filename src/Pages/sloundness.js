@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 
-import Newcode from "../artistas/newcode/newcode";
 import Slound from "../artistas/sloundness/sloundness";
 
 

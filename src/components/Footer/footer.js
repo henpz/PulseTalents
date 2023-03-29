@@ -19,7 +19,7 @@ function Footer (){
 
         <div className="wpp-container">
                 <div className="wpp-block">
-            <a href="https://api.whatsapp.com/send/?phone=5519996096719&text&type=phone_number&app_absent=0" target ="_blank"> <img id="wpplogo"  src={Wpp}/>  <h1>55 19 99609-6719</h1> </a>
+            <a href="https://api.whatsapp.com/send/?phone=551971095808&text&type=phone_number&app_absent=0" target ="_blank"> <img id="wpplogo"  src={Wpp}/>  <h1>55 19 7109-5808</h1> </a>
                  </div>
         </div>
 
@@ -33,7 +33,8 @@ function Footer (){
 
        <div className="direitos">
        
-       <span>Pulse Talents© 2023 Todos os Direitos Reservados. <br/><br/> POWERED BY: <a href="https://www.linkedin.com/in/henriquepizzi/"> CARLOS HENRIQUE PIZZI</a></span>
+       <span>Pulse Talents© 2023 Todos os Direitos Reservados. <br/><br/> POWERED BY: <a href="https://www.linkedin.com/in/henriquepizzi/"> CARLOS HENRIQUE PIZZI</a> <br></br> site feito em react</span>
+      
        </div>
 
 

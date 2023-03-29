@@ -52,7 +52,7 @@ function Karin () {
 
                 <div className="redes-karin">
 
-                    <div className="wpp"><a target="_blank" href="https://api.whatsapp.com/send?phone=5519997027577" ><img  id="wpp"src={Wpp}/></a></div>
+                    <div className="wpp"><a target="_blank" href="https://api.whatsapp.com/send?phone=5519996543915" ><img  id="wpp"src={Wpp}/></a></div>
                     <div className="wpp"><a target="_blank" href="https://www.instagram.com/karin_sound/?igshid=YmMyMTA2M2Y%3D" ><img id="wpp"src={Ig}/></a></div>
 
                 </div>

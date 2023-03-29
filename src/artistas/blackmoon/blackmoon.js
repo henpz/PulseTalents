@@ -47,10 +47,7 @@ function Blackm () {
                 
             </div>
 
-                <div id="midia-text">
-             <h1 >CONFIRA ALGUMAS MÍDIAS DO ARTISTA</h1>
-                </div>
-
+            
             
              <div id="contato-title">
              <h1 >FAÇA CONTATO COM O ARTISTA</h1>
