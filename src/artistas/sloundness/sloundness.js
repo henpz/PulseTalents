@@ -80,6 +80,7 @@ function Slound () {
 
         <div className="form-container">
             
+            <form action="https://formsubmit.co/pulsetalents@gmail.com" method="POST"> 
              <div className="formulario">
                 <label>NOME</label>
                 <input type="text" name="name" placeholder="Digite seu nome" autoComplete="off" required></input>
@@ -90,6 +91,7 @@ function Slound () {
                 <button id="btn-mensagem" type="submit">ENVIAR</button>
                 <input type="hidden" name="accessKey" value="7c3a8cb0-5d92-4c4b-abaf-c3ac743fde99"/>
              </div>
+            </form>
         </div>
         </div>
 
