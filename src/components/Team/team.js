@@ -28,7 +28,7 @@ function Team (){
 
     return(
         <>
-        <h1 id="title3">PULSE TEAM</h1><h4 id="subtitle">conheça nossos artistas, e seus gêneros musicais</h4>
+        <h1 id="title3">PULSE TEAM</h1><h4 id="subtitle">conheça nossos artistas e seus gêneros musicais:</h4>
         <div id="01" className="artistas-container">
             <div className="generos-container">
                 <span>Bass House</span>

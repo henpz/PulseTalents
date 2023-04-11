@@ -104,6 +104,9 @@
     
     background-image: url('./Teamfotos/blackmoon.jpg');
 }
+
+
+
 #blackmlogo{
     filter: invert(100%);
     width: 375px;
@@ -259,7 +262,7 @@
 
     #blackmoon{
         background-position: center;
-        background-image: url('./Teamfotos/blackmoonres.jpg');
+        background-image: url('./Teamfotos/blackmonmobile.jpg');
     }
 
     .generos-container{
@@ -295,7 +298,7 @@
       }
       
       .card{
-        width: 190px;
+        width: 150px;
       }
       
       #actionlogo{

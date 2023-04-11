@@ -26,6 +26,8 @@ function Header (){
     const handleClick = event => {
       setOpen(!open);
       event.stopPropagation();
+      const icon = document.querySelector('.iconemobile');
+      icon.classList.toggle('active');
     };
   
     useEffect(() => {
@@ -40,6 +42,7 @@ function Header (){
       };
     }, []);
 
+  
     return(
         <div>
            <header>
@@ -57,9 +60,11 @@ function Header (){
 
                       <HashLink smooth to="/#03" activeClassName="active"><li className="navitem">CONTATOS</li></HashLink>
 
-                    <div className="iconemobile"  style={{ display: screenWidth < 768 ? 'block' : 'none' }}>
+                    <div className="iconemobile" onClick={handleClick}  style={{ display: screenWidth < 768 ? 'block' : 'none' }}>
                         
-                       <button className="butonmenuresp" onClick={handleClick}><img id="menuresp" src={Menuresp} /></button>
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
                     </div>
                     </ul>
                     

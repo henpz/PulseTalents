@@ -78,3 +78,9 @@ footer{
 a{
     color: white;
 }
+
+@media (min-width: 340px) and (max-width: 500px){
+    footer{
+        height: 480px;
+    }
+}
