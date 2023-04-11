@@ -281,6 +281,10 @@ height: 100%;
     .redes-biomic img{
         width: 50px;
     }
+
+    .wpp{
+        width: 50px;
+    }
     .wpp:hover img {
         width: 60px;
       }
