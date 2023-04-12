@@ -36,7 +36,7 @@ function Vicent () {
                 Leo Carvalho é o nome por traz do projeto vicent. Com esse novo projeto, Leo vem se destacando e ganhando espaço com suas produções e apresentações memoráveis, seguindo a linha do Bass House e Tech House. Iniciando as atividades no mercado da música eletrônica em 2020, já conta com tracks lançadas em selos como Muzenga Records, G-Mafia Records , Emusic4all e Deep Bear Recordings.
                 Buscando sempre a evolução, entrou recentemente para o grande time de artistas da Pulse Talent com ideias promissoras para os próximos anos.
 
-                        <br/><br/> GÊNEROS MUSICAIS: BASS HOUSE<br/><br/>LOCALIZAÇÃO: PIRASSUNUNGA - SP
+                        <br/><br/> GÊNEROS MUSICAIS: PROG PSYTRANCE<br/><br/>LOCALIZAÇÃO: PIRASSUNUNGA - SP
                 </h1><br/>
                 
             </div>

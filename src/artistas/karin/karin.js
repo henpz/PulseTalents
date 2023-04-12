@@ -40,7 +40,7 @@ function Karin () {
 
                     Com talento natural, Karin vem embalada pelo ritmo do Bass House e é capaz de conduzir grandes pistas a uma grande atmosfera de alegria e euforia.
 
-                        <br/><br/> GÊNEROS MUSICAIS: BASS HOUSE<br/><br/>LOCALIZAÇÃO: LEME - SP
+                        <br/><br/> GÊNEROS MUSICAIS: TECH HOUSE & BASS HOUSE<br/><br/>LOCALIZAÇÃO: LEME - SP
                 </h1><br/>
                 
             </div>

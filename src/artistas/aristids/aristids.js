@@ -37,7 +37,7 @@ function Aristids () {
                 Aristids aka Guilherme Carvalho, DJ profissional há mais de 10 anos, formado pela Over One DJs, também cursou produção de música eletrônica pela Anhembi Morumbi. Gui é fundador e CEO dos núcleos Dream ON & Elementare, além de organizar a Caribbean na grande BH. Ao longo dos anos adquiriu bagagem participando de eventos como Universo Paralello, E-Trip, High Paradise, Sonoora, além da maioria dos eventos do Sul de MG.
 Sempre se adaptando aos line-ups, traz consigo mixagens precisas, transitando facilmente pelas diferentes ondas sonoras do psy-trance. Atualmente integrante da Pulse Talents, com muito groove, basslines dançantes, baterias percussivas e melodias psicodélicas, traz sempre novidades em seu case, prometendo colocar todos para dançar em qualquer dancefloor.
 
-                        <br/><br/> GÊNEROS MUSICAIS: FULLON GROOVE<br/><br/>LOCALIZAÇÃO: PIRASSUNUNGA - SP
+                        <br/><br/> GÊNEROS MUSICAIS: G-PROG & PROG<br/><br/>LOCALIZAÇÃO: PIRASSUNUNGA - SP
                 </h1><br/>
                 
             </div>

@@ -41,7 +41,7 @@ Recém convidado a fazer parte do casting de djs da Pulse Talents , o artista te
 
 Já tendo se apresentado em algumas das maiores e mais reconhecidas casas noturnas de sua região, onde dividiu palco com artistas como Yves V, Samhara  e Felguk, está expandindo seu raio de atuação pelo sul de Minas e litoral Paulista despertando admiração e fascinação através da sua música.
 
-                        <br/><br/> GÊNEROS MUSICAIS: FULLON GROOVE<br/><br/>LOCALIZAÇÃO: PIRASSUNUNGA - SP
+                        <br/><br/> GÊNEROS MUSICAIS: TECH HOUSE & TECHNO MELODIC<br/><br/>LOCALIZAÇÃO: PIRASSUNUNGA - SP
                 </h1><br/>
                 
             </div>
