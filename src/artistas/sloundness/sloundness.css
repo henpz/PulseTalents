@@ -51,19 +51,17 @@ height: 100%;
     background-image: url('./slound.jpg');
     background-size: cover;
     position: relative;
-    background-position: center;
     
 }
 
 .logoslound{
     margin-top: 0px;
-    
+    margin-bottom: 25PX;
     text-align: center;
 }
 
 .logoslound img{
-    width: 420px;
-    margin-bottom: 35px;
+    width: 350px;
 }
 
 .sloundsobre{
@@ -96,7 +94,7 @@ height: 100%;
     width: 50%;
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     gap: 10px; 
     padding-top: 10px;
@@ -318,11 +316,13 @@ height: 100%;
     .sloundsobre{
         width: 90%
     }
-    
+    .logoslound{
+        height: 100px;
+    }
     .logoslound img{
         position: relative;
-       
-        width: 440px;
+        bottom: 20px;
+        width: 340px;
     }
     .sloundsobre h1{
         padding: 5px;
@@ -402,17 +402,19 @@ height: 100%;
         
     }
 
-    
+    .logoslound{
+        height: 100px;
+    }
 
     .logoslound img{
         position: relative;
-        
+        bottom: 50px;
     }
     .sloundsobre h1{
         padding: 5px;
         align-items: center;
         font-size: 18px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
 
     .midiasslound{
@@ -420,8 +422,8 @@ height: 100%;
     width: 90%;
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 10px; 
     padding-top: 10px;
     padding-bottom: 35px;
@@ -497,8 +499,8 @@ height: 100%;
     width: 90%;
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 10px; 
     padding-top: 10px;
     padding-bottom: 35px;
@@ -537,82 +539,4 @@ height: 100%;
     .formulario{
         width: 95%;
 }
-}
-
-@media (min-width: 1381px) and (max-width:1669px){
-    .fotodefundo img{
-        display: none;
-    }
-
-    .fotodefundo{
-        background-image: url('../img/fundopulse.jpg');
-        width: 100%;
-        height: 500px;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .photoslound{
-        width: 300px;
-        height: 300px;
-        bottom: 60px
-    }
-
-    .sloundsobre{
-        width: 90%
-    }
-
-    .sloundsobre h1{
-        padding: 5px;
-        align-items: center;
-        font-size: 16px;
-        margin-bottom: 50px;
-    }
-
-    .midiasslound{
-        margin: auto;
-    width: 90%;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px; 
-    padding-top: 10px;
-    padding-bottom: 35px;
-    }
-
-    #responsive{
-        width: 750px;
-    }
-
-    #midia-text h1{
-        text-align: center;
-        font-size: 22px;
-    }
-
-    #contato-title h1{
-        text-align: center;
-        font-size: 22px;
-    }
-
-    .redes-slound{
-        width: 100%;
-    }
-    
-    .redes-slound img{
-        width: 70px;
-    }
-    .wpp:hover img {
-        width: 80px;
-      }
-
-    #enviarmsg{
-        color: white;
-        font-size: 22px;
-    }
-
-    .formulario{
-        width: 95%;
-}
-
 }

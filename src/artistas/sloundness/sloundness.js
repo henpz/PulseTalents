@@ -51,13 +51,11 @@ function Slound () {
                 </div>
 
              <div className="midiasslound">
-             <iframe id="responsive" width="540" height="305" src="https://www.youtube.com/embed/TTWpFXRYEI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>             
-             <iframe id="responsive" width="540" height="305" src="https://www.youtube.com/embed/qju1xEAygHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>             
-             <iframe id="responsive" width="540" height="305" src="https://www.youtube.com/embed/oop6Twqlzr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>             
-             <iframe id="responsive" width="540" height="305" src="https://www.youtube.com/embed/92Y7Gl9PowE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-             <iframe id="responsive" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1423123666&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-             <iframe id="responsive" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1319630044&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
+             <iframe  src="https://open.spotify.com/embed/album/65cZDeyjLiD6boyqoIYdDF?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+             <iframe  src="https://open.spotify.com/embed/album/5zfiafTgZWSgc7XudrvM4X?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+             <iframe  src="https://open.spotify.com/embed/album/43VCHjwJ6hCQRcbSjO4llj?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+             <iframe  src="https://open.spotify.com/embed/album/6mcj7V5m19Oeq9FW3LE5qI?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+             <iframe  src="https://open.spotify.com/embed/album/2VxWKyu4HwvlOuTig9hC1C?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
              </div>
 
             

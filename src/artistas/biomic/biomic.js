@@ -37,7 +37,7 @@ function Biomic () {
                 Leo Carvalho é o nome por traz do projeto Biomic. Com esse novo projeto, Leo vem se destacando e ganhando espaço com suas produções e apresentações memoráveis, seguindo a linha do Bass House e Tech House. Iniciando as atividades no mercado da música eletrônica em 2020, já conta com tracks lançadas em selos como Muzenga Records, G-Mafia Records , Emusic4all e Deep Bear Recordings.
                 Buscando sempre a evolução, entrou recentemente para o grande time de artistas da Pulse Talent com ideias promissoras para os próximos anos.
 
-                        <br/><br/> GÊNEROS MUSICAIS: BASS HOUSE<br/><br/>LOCALIZAÇÃO: PIRASSUNUNGA - SP
+                        <br/><br/> GÊNEROS MUSICAIS: TECH HOUSE & BASS HOUSE<br/><br/>LOCALIZAÇÃO: PIRASSUNUNGA - SP
                 </h1><br/>
                 
             </div>
@@ -47,12 +47,13 @@ function Biomic () {
                 </div>
 
              <div className="midiasbiomic">
-             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1324772482&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1357546792&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289149824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1139077879&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1190273311&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1271686405&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+             <iframe  src="https://open.spotify.com/embed/track/3u4ACgMeF1Ul4ZxDy6e1es?utm_source=generator" width="100%" height="152"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+             <iframe width="100%" height="152" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1482321511&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+             <iframe src="https://open.spotify.com/embed/track/16nEUQpapH84pZQPNkHQZi?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+             <iframe  src="https://open.spotify.com/embed/track/34riEIAnG0EhWp7FrCPlI7?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+             <iframe  src="https://open.spotify.com/embed/track/0DqLazkXLGl3NjOovY9jwH?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+             <iframe src="https://open.spotify.com/embed/track/3u4ACgMeF1Ul4ZxDy6e1es?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+             <iframe  src="https://open.spotify.com/embed/track/1ALkdAdat5pibwsAFsMXww?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
              </div>
             
              <div id="contato-title">
