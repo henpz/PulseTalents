@@ -33,7 +33,7 @@ function Footer (){
 
        <div className="direitos">
        
-       <span>Pulse Talents© 2023 Todos os Direitos Reservados. <br/><br/> POWERED BY: <a href="https://encr.pw/vQXlW"> CARLOS HENRIQUE PIZZI</a> <br></br> site feito em react</span>
+       <span>Pulse Talents© 2023 Todos os Direitos Reservados. <br/><br/> POWERED BY: <a href="https://www.linkedin.com/in/henriquepizzi/"> CARLOS HENRIQUE PIZZI</a> <br></br> site feito em react</span>
       
        </div>
 
